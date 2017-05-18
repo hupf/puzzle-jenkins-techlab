@@ -11,7 +11,7 @@ Lab 3.1: Build Options
 ----------------------
 
 In declarative pipelines build options/properties are configured through the ``options`` directive.
-Only a single ``options`` directive is allowed and must be contained in the ``pipeline`` block.
+Only a single ``options`` directive is allowed and must be contained in the ``pipeline`` block. The available options are documented in the [Pipeline Syntax](https://jenkins.io/doc/book/pipeline/syntax/#options) section.
 Create a new branch named ``lab-3.1`` from branch ``lab-2.1`` and change the contents of the ``Jenkinsfile`` to:
 
 ```groovy
